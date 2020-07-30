@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+  
+}
+#rsf{
+    height: 100%;
+    width: 100%;  
+    display: flex;
+}
+#one{
+    height: 100%;
+    width: 50%; 
+    background: linear-gradient(to right ,blue,orange,blueviolet) ;
+    border-radius: 0 400px 800px 0;
+
+}
+h1{
+    text-align: center;
+color: chartreuse;
+font-size: 42px;
+font-weight: 400;
+font-family: algerian;
+padding: 15px;    
+}
+h2{
+    text-align: center;
+    color: rgb(185, 33, 33);
+    font-size: 30px;
+    font-weight: 400;
+    font-family: comic sans ms  ;
+    padding: 15px;     
+}
+.a{
+    text-align: center;
+    color: rgb(185, 33, 135);
+    font-size: 42px;
+    font-weight: 400;
+    font-family: comic sans ms;  
+    padding: 15px;    
+}
+#two{
+    height: 100%;
+    width: 50%;  
+    background-image: url('rsff.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;    
+
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 250;
+    font-family: comic sans ms ;
+    padding: 15px;    
+}
+button{
+    
+    border-radius: 300px;
+    background: linear-gradient(to right ,rgb(18, 139, 83),rgb(182, 45, 182),rgb(221, 31, 47)) ;
+    border: 3px solid white;
+    color: yellowgreen;
+    font-size: 20px;
+padding: 15px 40px;
+
+}
+button a{
+    color: yellowgreen;  
+    text-align: center;
+align-items: center;
+display: flex;
+text-decoration: none;
+}
